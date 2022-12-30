@@ -11,7 +11,7 @@
 width: 100%;
 background-color: rgb(15, 15, 15);
 position: absolute;
- /* overflow: hidden;  */
+/*   overflow: hidden;   */
 }
 .nav{
 display:flex;
