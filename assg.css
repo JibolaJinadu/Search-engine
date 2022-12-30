@@ -1,0 +1,1141 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@200;300;400;500&family=Lexend:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&family=Roboto:wght@100;300;400;500;700;900&family=Squada+One&display=swap");
+*{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    /* background-color: rgb(15, 15, 15) */
+                    
+}
+.container{
+ height: 100vh;
+width: 100%;
+background-color: rgb(15, 15, 15);
+position: absolute;
+ /* overflow: hidden;  */
+}
+.nav{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.nav-left input{
+width: 205%;
+height: 50px;
+position: relative;
+left: 12rem;
+bottom: 0.5rem;
+padding: 25px 25px 25px 25px;
+border-radius: 25px;
+outline: none;
+font-family: poppins;
+font-size: 16;
+color: white;
+background-color: rgb(32, 32, 32);
+border: none;
+}
+.nav-left h1{
+                    position: relative;
+                    top: 2.5rem;
+                    left: 4rem;
+                    color: white;
+                    font-family: poppins;
+}
+.nav-left hr{
+                    width: 10%;
+                    position: relative;
+                    left: 43.5rem;
+                    bottom: 4rem;
+                    transform: rotate(90deg);
+                    color: grey;
+}
+.nav-left #x-large{
+                    position: relative;
+                    left: 42rem;
+                    bottom: 3rem;
+                    width: 6%;
+                    color: grey;
+}
+ #g-mic{
+                    position: relative;
+                    left: 44rem;
+                    bottom: 2.7rem;
+                    width: 27px;
+                    height: 27px;
+}
+#lens{
+                    position: relative;
+                    left: 44rem;
+                    bottom: 3rem;
+                    width: 18px;
+                    height: 18px;
+}
+#g-search{
+                    position: relative;
+                    left: 44.5rem;
+                    bottom: 3rem;  
+color: blue;         
+}
+ #search, #images, #nine-dots{
+                    width: 50px;
+                    height: 20px;
+                    color: white;
+}
+
+.nav-right{
+                    position: absolute;
+                    right: 8rem;
+                    margin: 20px;
+}
+.nav-right h5{
+                    text-align: right;
+                    position: relative;
+                    left: 1.8rem;
+                    bottom: 1.7rem;
+                    font-size: 18px;
+                    border-radius: 50px;
+                    height: 25px;
+                    text-align: center;
+                    background: blue;
+                    color: white;
+                    font-family: poppins;
+                    
+}
+#gear{
+       position: relative; 
+       right: 2rem;
+       top: 1.5rem; 
+       width: 50%; 
+       color: white;          
+}
+#nine-dots{
+                    width: 50%;
+                    background-color: white;
+}
+
+/* beneath */
+
+.beneath{
+                    display: flex;
+                    flex-direction: row;
+                    position: relative;
+                    left: 13rem;
+                    bottom: 2rem;
+}
+.beneath img{
+                    width: 18px;
+                    color: white;
+}
+.beneath h5{
+                    font-size: 15px;
+                    position: relative;
+                    top: 0.2rem;
+                    color: grey;
+}
+#search, #images{
+                    width: 18px;
+                    color: white;
+}
+.first-div, .second-div, .third-div, .fourth-div,.fifth-div{
+                    display: flex;
+                    flex-direction: row;
+                    margin: 25px;
+}
+.first-div{
+                    border-bottom: 1px solid;
+                    border-width: 3px;
+                    border-color: skyblue;
+                    border-top: 2rem;
+
+                    
+}
+#hr{
+                    position: relative;
+                    bottom: 3.5rem;
+                    color: grey;
+
+}
+/* end of nav area */
+
+.main-body h5{
+       color: grey;
+       font-size: 16px;
+       font-family: poppins;
+       font-weight: 600;
+       position: relative;
+       bottom: 2.5rem;
+       left: 17%;
+}
+.btn{
+position: relative;
+left: 17%;
+bottom: 1.5rem;
+display: flex;
+flex-direction: row;
+}
+.btn h1{
+color: white;
+font-family: poppins;
+font-weight: 400;
+
+}
+.btn span{
+font-size: 18px;
+font-weight: 300;
+bottom: 1rem;
+position: relative;
+}
+#one, #two,#three,#four{
+       width: 8%;
+       height: 45px;
+       position: relative;
+       left: 1rem;
+       margin: 10px;
+       font-size: 14px;
+       font-family: poppins;
+       border-radius: 25px;
+       outline: none;
+       background-color: #2A4165;
+}
+#one{
+       border-color: white;
+       border: 1px thin;
+}
+#two:hover, #three:hover, #four:hover{
+       opacity: .6;
+}
+
+/* imge styling */
+
+.image_container{
+display: flex;
+flex-direction: row;
+position: relative;
+left: 16%;
+
+}
+.sep-div{
+       display: grid;
+       grid-template-columns: 1fr;
+       
+}
+figure #img1{
+       width: 250px;
+       height: 286px;
+       border-radius: 15px 0px 0px 15px;
+       position: relative;
+       left: 0.3rem;
+}
+figcaption{
+       color: black;
+       position: relative;
+       bottom: 2rem;
+       text-align: center;
+       color: white;
+       font-size: 14px;
+       font-family: poppins;
+}
+#img2, #img3{
+       width: 210px;
+       height: 150px;
+       margin: 5px;
+       border-radius: 0px 15px 15px 0px;
+       position:relative;
+       bottom: 0.3rem;
+}
+#img3{
+       position: relative;
+       bottom: 1.8rem;
+}
+
+/* divs */
+
+.description1{
+border-radius: 15px;
+margin: 15px;
+
+}
+iframe{
+       border-radius: 25px 25px 0px 0px;
+}
+.yout{
+       background-color: rgb(32, 32, 32);
+       border-radius: 0px 0px 25px 25px;
+       width: 100%;
+       height: 50%;
+       position: relative;
+       bottom: 0.8rem;
+       white-space: nowrap;
+}
+.yout h5{
+       position: relative;
+       top: 0.7rem;
+       left: 0.2rem;
+       margin: 10px;
+       font-family: poppins;
+       font-size: 12px;
+       font-weight: 400;
+       color: white;
+}
+.yout h6{
+       position: relative;
+       top: 1rem;
+       left: 0.2rem;
+       margin: 15px;
+       font-weight: 300;
+       font-size: 12px;
+       color: white;
+}
+#grey, #grey2{
+       color: grey;
+}
+.desc2, .desc3{
+background-color: #2A4165;
+margin: 10px;
+width: 10%;
+height: 45%;
+border-radius: 25px;
+}
+.desc2:hover, .desc3:hover{
+       opacity: .8;
+}
+.desc2 h5{
+margin: 42px;
+position: relative;
+left: -1rem;
+color: white;
+font-size: 14px;
+font-family: poppins;
+font-weight: 400;
+
+}
+.desc2 h2{
+       color: white;
+       font-family:poppins;
+       font-size: 18px;
+       font-weight: 500;
+    margin-bottom: 5px;  
+ position: relative;
+left: 1.3rem;
+}
+.desc3{
+       height: 30%;
+}
+.desc3 h5{
+margin: 25px;
+white-space: nowrap;
+position: relative;
+top: 0.5rem;
+left: -0.1rem;
+color: white;
+font-family: poppins;
+font-size: 14px;
+font-weight: 500;
+}
+.desc4{
+       position: absolute;
+       top: 10rem;
+       right: 23%;
+       display: flex;
+       flex-direction: row;
+       background-color: rgb(32, 32, 32);
+       border-radius: 25px;
+}
+.desc4:hover{
+       color: white;
+       opacity: .7;
+}
+.desc4 img{
+       width: 100px;
+       height: 110px;
+       padding: 5px;
+       position: relative;
+       top: 0.6rem;
+       border-radius: 15px;
+}
+.tag{
+       position: relative;
+       top: 1.5rem;
+       right: 1rem;
+       margin: 20px;
+       padding: 8px;
+}
+.tag h5{
+       color: white;
+       font-size: 14px;
+       font-weight: 300;
+}
+#threedots{
+       width: 15px;
+       height: 15px;
+       position: relative;
+       bottom: 4.8rem;
+
+}
+/* end of first page */
+
+/* ......................................................... */
+.container2{
+       display: flex;
+       flex-direction: row;
+       
+}
+.left{
+       background-color: black;
+       width: 60%;
+       position: absolute;
+       top: 102%;
+}
+.start{
+       position: relative;
+       left: 20%;
+}
+.start span{
+       color: grey;
+}
+.start a{
+       color: rgb(127, 127, 247);
+       font-size: 12px;
+       font-family: poppins;
+}
+.start a:hover{
+       text-decoration: underline;
+}
+.start h5{
+       color: white;
+       font-size: 14px;
+       font-family: poppins;
+       font-weight: 500;
+}
+.start h2{
+       color: purple;
+       font-size: 20px;
+       font-family: poppins;
+       font-weight: 400;
+       
+}
+.header{
+       position: relative;
+       left: 20%;
+       margin-top: 15px;
+}
+.header h3{
+font-size: 20px;
+font-family: poppins;
+color: white;
+}
+.header h5{
+       font-size: 14px;
+       font-family: poppins;
+       color: white;
+}
+.header img, .header2 img{
+       position: relative;
+       left: 32%;
+       bottom: 1.2rem;
+}
+
+.header img, .header2 img{
+       width: 16px;
+       height: 16px;
+}
+/* ....content styling...... */
+
+.one{
+       display: flex;
+       flex-direction: row;
+       position: relative;  
+       left: 20%; 
+}
+#first, #first2, #first3{
+       width: 75%;
+       position: relative;
+       left: 18%;
+       margin: 15px;
+}
+#side{
+       margin: 15px;
+
+}
+#beneath{
+       margin: 15px;
+       width: 94%;
+}
+.content_wrap{
+       display: flex;
+       flex-direction: column;
+}
+.icon_logo{
+display: flex;
+flex-direction: row;
+margin: 2px;
+}
+.icon_logo img{
+       width: 16px;
+       height: 16px;
+}
+.content2 img, .content3 img, .content1 img, .content4 img, .content5 img, .content6 img, .content7 img{
+border-radius: 10px;
+}
+.content2 p, .content3 p, .content1 p, .content4 p, .content5 p, .content6 p, .content7 p{
+color: grey;
+font-family: poppins;
+font-size: 12px;
+}
+.content2 h5, .content3 h5, .content1 h5, .content4 h5, .content5 h5, .content6 h5, .content7 h5{
+color: rgb(127, 127, 247);
+font-family: poppins;
+}
+.content2 h5:hover,.content3 h5:hover, .content1 h5:hover, .content4 h5:hover, .content5 h5:hover, .content6 h5:hover, .content7 h5:hover{
+       border-bottom: 1px rgb(127, 127, 247);
+       text-decoration: underline;
+}
+ .img img{
+       margin: 10px;
+}
+.content2, .content3{
+       display: flex;
+       flex-direction: row;
+}
+
+.header2{
+       position: relative;
+       left: 20%;
+       top: 1rem;
+      
+}
+.header2 h5{
+font-size: 16px;
+font-family: poppins;
+color: white;
+margin-top: 15px;
+}
+.content_wrap2{
+       display: flex;
+       flex-direction: row;
+       position: relative;
+       left: 20%;
+       margin: 20px;
+}
+.content5, .content4{
+       display: flex;
+       flex-direction: row;
+}
+.content5 #imgg, .content3 #img{
+       position: relative;
+       left: 1.8rem;
+}
+.dps{
+       position: relative;
+       right: 1.5rem;
+}
+#side2, #side3{
+       margin: 18px;
+       height: 130px;
+       position: relative;
+       bottom: 1.8rem;
+}
+
+.content6_wrap{
+       display: flex;
+       flex-direction: row;
+       position: relative;
+       left: 20%;
+       margin: 20px;
+}
+h4{
+       font-size: 18px;
+       color: white;
+       position: relative;
+       left: 20%;
+       font-family: poppins;
+}
+.content6, .content7{
+       display: flex;
+       flex-direction: row;
+}
+.button img{
+width: 16px;
+height: 16px;
+}
+ .button #btn2{
+width: 370px;
+height: 38px;
+position: relative;
+bottom: 1.3rem;
+border: none;
+border-radius: 20px;
+left: 24%;
+background-color: rgb(32, 32, 32);
+}
+.button #icn{
+       position: relative;
+       bottom: 1rem;
+       left: 2.6rem;
+}
+
+.people-wrap img{
+       width: 16px;
+       height: 16px;
+}
+
+.w-up{
+       position: relative;
+       left: 20%;
+}
+.w-up span{
+       
+}
+#mm, #mm2{
+       font-weight: 600;
+}
+.w-up h5{
+       font-size: 14px;
+       font-family: poppins;
+       font-weight: 400;
+       color: gray;
+}
+.w-up h2{
+
+       color: purple;
+       font-family: poppins;
+       font-weight: 500;
+}
+.people-ask{
+       position: relative;
+       left: 20%;
+       margin: 47px;
+}
+.people-ask h2{
+margin: 5px;
+color: white;
+font-family: poppins;
+font-weight: 500;
+}
+.people-ask hr{
+       width: 80%;
+}
+.people-ask h5{
+       color: grey;
+       font-family: poppins;
+}
+.wrap1{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       margin: 6px;
+}
+.wrap1 img{
+       position: relative;
+       right: 20%;
+       rotate: 90deg;
+}
+    
+
+
+/* ..........right side............. */
+
+.right{
+       background-color: black;
+       width: 40%;
+       position: absolute;
+       left: 60%;
+       top: 102%;
+
+}
+.write-up{
+       position: relative;
+       left: 2rem;
+}
+.write-up h5{
+       color: white;
+       font-size: 18px;
+       font-family: poppins;
+       margin: 10px;
+       font-weight: 400;
+}
+.write-up a{
+       color: rgb(127, 127, 247);
+}
+.write-up a:hover{
+       text-decoration: underline;
+}
+.write-up span{
+       font-weight: 600;
+}
+.write-up p{
+       color: white;
+       font-family: poppins;
+       font-size: 14px;
+       margin: 15px;
+}
+#side5{
+       rotate: 90deg;
+       position: relative;
+       right: 120%;
+       top: 45rem;
+       width: 240%;
+}
+.kpanel{
+       position: relative;
+       left: 2rem;
+       top: 1rem;
+       margin: 15px;
+       margin-top: 10px;
+}
+.kpanel img{
+       position: relative;
+       left: 4rem;
+       top: 0.1rem;
+}
+.kpanel small{
+       color: grey;
+       font-family: poppins;
+       font-size: 14px;
+}
+.kpanel button{
+       width: 250px;
+       height: 40px;
+       margin: 20px;
+       border-radius: 20px;
+}
+.social-wrap{
+       position: relative;
+       left: 2rem;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+}
+.div2{
+       position: inherit;
+       right: 5rem;
+}
+.div3{
+       position: inherit;
+       right: 10rem;
+}  
+.socials h6{
+       text-align: center;
+       font-size: 14px;
+       font-family: poppins;
+       color: grey;
+       position: relative;
+       right: 0.8rem;
+}
+
+.socials img{
+width: 30px;
+height: 30px;
+}
+.socials h5{
+font-size: 18px;
+font-family: poppins;
+color: white;
+margin: 20px;
+font-weight: 400;
+}
+/* end of socials */
+
+.stats img{
+       width: 17px;
+       height: 16px;
+       border: 1px solid white;
+       border-radius: 20px;
+
+}
+.stats h2{
+       font-family: poppins;
+       color: white;
+       font-size: 18px;
+}
+.stats{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       margin: 15px;
+}
+
+
+/* list items */
+.lists h5{
+       font-size: 12px;
+       color: grey;
+       font-family: poppins;
+}
+.lists{
+       margin: 25px;
+}
+.first-list{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       margin: 20px;
+}
+ul li{
+       list-style: none;
+       color: rgb(146, 142, 142);
+       font-family: poppins;
+       font-size: 14px;
+       margin: 5px;
+}
+#mid2, #mid3,#mid, #mid4, #mid5, #mid6{
+       position: relative;
+       right: 2rem;
+}
+
+.wpsf1{
+       display: flex;
+       flex-direction: column;
+       margin: 10px;
+}
+.wpsf1 img{
+       border-radius: 15px;
+}
+.wpsf1 a{
+       color: grey;
+       text-align: center;
+       font-family: poppins;
+}
+.pasf_wrap h5{
+color: white;
+font-size: 18px;
+font-family: poppins;
+font-weight: 600;
+margin: 15px;
+}
+.pasf{
+       display: flex;
+       flex-direction: row;
+       
+}
+
+/* button */
+
+.seemore img{
+width: 16px;
+height: 16px;
+position: relative;
+bottom: 3rem;
+top: 0.2rem;
+right: 4rem;
+}
+.seemore button{
+width: 350px;
+height: 40px;
+position: relative;
+left: 4rem;
+border-radius: 20px;
+background-color: rgb(17, 12, 12);
+color: white;
+font-family: poppins;
+}
+
+/* third section styling */
+
+.videos_container{
+       background-color:black;
+       width: 100%;
+       height: 100vh;
+}
+.vidwrap{
+       background-color: black;
+}
+.videos_container hr{
+       width: 50%;
+       position: relative;
+       left: 20%;
+       margin: 10px;
+}
+.vidwrap iframe{
+       border-radius: 20px;
+}
+.vid h5{
+       position: relative;
+       right: 18%;
+       margin: 15px;
+       top: 2rem;
+       font-family: poppins;
+       color: rgb(161, 160, 160);
+}
+#vidtag1, #vidtag2{
+       position: relative;
+       right: 28%;
+}
+.vid h4{
+       font-size: 14px;
+       position: relative;
+       left: -0.1rem;
+       margin: 15px;
+       font-weight: 500;
+}
+.vid img{
+       width: 16px;
+       height: 16px;
+}
+
+.vid{
+       display: flex;
+       flex-direction: row;
+       position: relative;
+       left: 20%;
+}
+.vidwrap button{
+       width: 300px;
+       height: 40px;
+       border-radius: 20px;
+       position:relative;
+       left: 38%;
+       bottom: 2rem;
+       border: none;
+       background-color: rgb(36, 33, 33);
+       color: white;
+       font-family: poppins;
+}
+.button img{
+       position: relative;
+       left: 29%;
+       bottom: 1.8rem;
+}
+
+/* next */
+.links_container{
+       background-color: black;
+       position: relative;
+       bottom: 1.6rem;
+}
+.links{
+       margin: 25px;
+       position: relative;
+       left: 15%;
+}
+.links h2{
+       color: rgb(127, 127, 247);
+       font-family: poppins;
+       font-weight: 500;
+}
+.links h2:hover{
+       text-decoration: underline;
+}
+.links h5, .links a{
+       color: rgb(150, 147, 147);
+       font-family: poppins;
+}
+
+.question_wrap{
+       position: relative;
+       left: 15%;
+       margin: 5px;
+}
+.question_wrap hr{
+       position: relative;
+       left: 0%;
+}
+.quest{
+       display: flex;
+       flex-direction: row;
+       margin: 15px;
+}
+.quest img{
+       width: 16px;
+       height: 16px;
+       position: relative;
+       left: 30%;
+       rotate: 90deg;
+}
+#q1{
+       left: 34.5%;
+}
+.quest h5{
+       color: rgb(170, 167, 167);
+       position: relative;
+       left: 0.3rem;
+}
+#q-img, #q-img2,#q-img3{
+       position: relative;
+       left: 1%;
+       width: 50px;
+       height: 50px;
+       rotate: 360deg;
+}
+.question_wrap2 .quest{
+position: relative;
+left: 18%;
+}
+.question_wrap2 h5{
+       position: relative;
+       left: 3rem;
+       top: 1rem;
+       font-size: 16px;
+}
+.question_wrap2 h2{
+       font-family: poppins;
+       color: white;
+       font-weight: 500;
+       position: relative;
+       left: 4rem;
+}
+.question_wrap2 a{
+       position: relative;
+       left: 30%;
+       top: 1rem;
+}
+#ii,#iii{
+       left: 33%;
+}
+.links-img img{
+width: 160px;
+height: 110px;
+border-radius: 10px;
+}
+.wh{
+       display: flex;
+       flex-direction: row;
+       margin: 5px;
+       
+}
+#CA{
+       position: relative;
+       left: 10rem;
+}
+
+/* ..............................search.............................. */
+
+.searchfor{
+       display: flex;
+       flex-direction: row;
+       position: relative;
+       left: 20%;
+}
+.searchfor li{
+       border: 1px solid;
+       width: 300px;
+       height: 45px;
+       border-radius: 20px;
+       color: rgb(172, 167, 167);
+       text-align: center;
+      padding-top: 6px;
+      background-color: rgb(31, 30, 30);
+}
+.searchfor span{
+       font-weight: 800;
+       color: rgb(194, 192, 192);
+}
+.searchfor img{
+       position: relative;
+       top: 2.3rem;
+       right: -2rem;
+}
+.searchdiv{
+       position: inherit;
+       left: 5%;
+}
+
+/* ................goooooogle..................... */
+
+.goole{
+       position: relative;
+       left: 30%;
+       margin: 30px;
+}
+.goole h1{
+       font-size: 40px;
+       font-weight: 500;
+       font-family: poppins;
+       color: white;
+}
+.goole h5{
+color: rgb(83, 83, 252);
+position: relative;
+left: 6rem;
+bottom: 1.3rem;
+}
+.numbers{
+       display: flex;
+       flex-direction: row;
+}
+ .numbers ul{
+       display: flex;
+       flex-direction: row;
+position: relative;
+left: 2rem;
+bottom: 2rem;
+}
+.numbers li{
+color: rgb(83, 83, 252);
+font-size: 14px;
+font-family: poppins;
+font-weight: 300;
+margin: 8.5px;
+}
+.goole img{
+       width: 16px;
+       height: 16px;
+       position: relative;
+       left: 28%;
+       bottom: 2.3rem;
+}
+
+/* ......................footer......................... */
+.footer_wrapper{
+       background-color: rgb(20, 20, 20);
+       height: 15vh;
+}
+.upper-prt{
+       display: flex;
+       flex-direction: row;
+}
+.upper-prt h5, .upper-prt img{
+       position: relative;
+       left: 15%;
+       top: 0.5rem;
+       margin: 2px;
+       font-size: 16px;
+       font-family: poppins;
+       color: rgb(197, 195, 195);
+}
+.upper-prt img{
+       position: relative;
+       right: 10%;
+       top: -0.1rem;
+}
+.upper-prt hr{
+       height: 2px;
+       width: 35px;
+       rotate: 90deg;
+       position: relative;
+left: 15%;
+top: 0.6rem;
+}
+.upper-prt a{
+       position: relative;
+       left: 12rem;
+       bottom: 0rem;
+       top: 1rem;
+       font-size: 22px;
+       font-family: poppins;
+       color: rgb(119, 119, 248);
+}
+.upper-prt span{
+       color: rgb(199, 197, 197);
+}
+
+/* lower prt */
+
+.lower-prt ul{
+       display: flex;
+       flex-direction: row;
+       position: relative;
+       left: 18%;
+}
+.lower-prt li{
+       margin: 15px;
+}
+.lower-prt{
+       position: relative;
+       bottom: 1.5rem;
+}
+.lower-prt hr{
+       width: 100%;
+       position: inherit;
+       left: 0%;
+}
